@@ -1,11 +1,11 @@
 Summary:	Exchange Web Services for Evolution
 Name:		evolution-ews
-Version:	3.12.0
+Version:	3.12.1
 Release:	1
 License:	LGPL v2+
 Group:		Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/evolution-ews/3.12/%{name}-%{version}.tar.xz
-# Source0-md5:	817cf396d43b8fd3cbab1698d3081c91
+# Source0-md5:	0ef611e6a12c02c934dec1bdab13853b
 URL:		http://projects.gnome.org/evolution/
 BuildRequires:	autoconf
 BuildRequires:	automake
