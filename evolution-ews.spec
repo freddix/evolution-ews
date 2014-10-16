@@ -1,15 +1,15 @@
 Summary:	Exchange Web Services for Evolution
 Name:		evolution-ews
-Version:	3.12.6
+Version:	3.12.7
 Release:	1
 License:	LGPL v2+
 Group:		Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/evolution-ews/3.12/%{name}-%{version}.tar.xz
-# Source0-md5:	0ab0bbb693f403178e806c28b3187e19
+# Source0-md5:	7d766a2b1b5f23589e27ca18b438aac1
 URL:		http://projects.gnome.org/evolution/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	evolution-devel >= 3.12.6
+BuildRequires:	evolution-devel >= 3.12.7
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+3-devel
 BuildRequires:	intltool
@@ -19,7 +19,7 @@ BuildRequires:	libsoup-devel
 BuildRequires:	libtool
 BuildRequires:	pkg-config
 BuildRequires:	sqlite3-devel
-Requires:	evolution >= 3.12.6
+Requires:	evolution >= 3.12.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
